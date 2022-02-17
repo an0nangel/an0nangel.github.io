@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 6rem;
+
+  border-radius: .4rem;
+  margin: .1rem;
+
+  font-size: 1.3rem;
+}
+
+.link {
+  font-size: inherit;
+}
+
+.container:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.container:active {
+  font-size: 1.4rem;
+}
